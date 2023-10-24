@@ -978,7 +978,7 @@ button:focus .loader {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 185px 0 15px 0;
+  padding: 20px;
 }
 
 .footer-email-intro {
@@ -988,7 +988,7 @@ button:focus .loader {
 
 .footer-email-intro p {
   font-size: 25px;
-  color: #7c7d81;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -996,7 +996,7 @@ button:focus .loader {
   font-size: 18px;
   font-weight: 400;
   color: #7C7D81;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 .footer-email-intro h3 {
@@ -1008,8 +1008,8 @@ button:focus .loader {
 
 .footer-menu {
   display: flex;
-  flex-direction: column;
-  align-items: start;
+  flex-direction: row;
+ align-items: center;
 }
 
 .footer-menu li {
@@ -1036,10 +1036,14 @@ button:focus .loader {
   color: #64f4ac;
   font-weight: 900;
 }
-
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .social-icons a {
   text-decoration: none;
-}
+  }
 
 .social-icons a i {
   color: #FFF;
